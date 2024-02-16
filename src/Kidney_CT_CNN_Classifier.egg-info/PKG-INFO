@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Kidney-CT-CNN-Classifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/sriram8113/Kidney-CT-Classification
+Author: sriram8113
+Author-email: sriramarabelli@gmail.com
+Project-URL: Bug Tracker, https://github.com/sriram8113/Kidney-CT-Classification/issues
+
+# Kidney-CT-Classification
