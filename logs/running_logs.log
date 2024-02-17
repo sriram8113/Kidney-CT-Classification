@@ -24,3 +24,23 @@ x==========x]
 [2024-02-16 17:48:19,980: INFO: common: created directory at: artifacts]
 [2024-02-16 17:48:19,990: INFO: common: created directory at: artifacts/prepare_base_model]
 [2024-02-16 17:48:36,055: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-16 17:58:07,350: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-16 17:58:07,373: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-16 17:58:07,404: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-16 17:58:07,409: INFO: common: created directory at: artifacts]
+[2024-02-16 17:58:07,410: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-16 17:58:07,411: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1GlduwwJM0rMSvCzaWWqK14v5YBW0d-q-/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-16 17:59:28,650: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1GlduwwJM0rMSvCzaWWqK14v5YBW0d-q-/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-16 18:01:26,808: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-16 18:01:26,808: INFO: main: *******************]
+[2024-02-16 18:01:26,808: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-16 18:01:26,854: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-16 18:01:26,900: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-16 18:01:26,919: INFO: common: created directory at: artifacts]
+[2024-02-16 18:01:26,919: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-16 18:01:34,530: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-16 18:01:38,727: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
